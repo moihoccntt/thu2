@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url("image/bgweb2.jpg");
+	font-family: sans-serif;
+}
+.login{
+	width: 400px;
+	height: 500px;
+	text-align: center;
+	border:1px solid grey;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 100px;
+	background-color: white;
+}
+h2{
+	display: inline-block;
+	color: #009999;
+}
+p{
+	margin: 10px 0px;
+	padding-left: 40px;
+	float: left;
+}
+.login input{
+	width: 300px;
+	height: 40px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	padding-left: 20px;
+	display: inline-block;
+
+}
+.check input{
+	width: 15px;
+	height: auto;
+}
+.check{
+	float: left;
+	padding-left: 40px;
+	margin: 10px 0px;
+}
+button{
+	font-size: 15px;
+	width: 300px;
+	height: 40px;
+	border-radius: 5px;
+	border:none;
+	background-color: #167bff;
+}
+button a{
+	color: white;
+	text-decoration: none;
+}
+button:hover{
+	background-color: #0D23F2;
+}
+.dk {
+	float: right;
+	padding-right: 40px;
+	margin-top: 20px;
+}
+.dk a{
+	text-decoration: none;
+}
